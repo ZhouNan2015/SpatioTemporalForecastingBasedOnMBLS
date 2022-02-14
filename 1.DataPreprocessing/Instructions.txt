@@ -1,0 +1,8 @@
+1.LoadRawData.m：load PV power output and meteorological data from .csv files
+    dependencies:
+    loadData.m: read data from .csv files
+    cleanseData.m: carry out data cleansing
+    countNaN.m: count the number of NaN in an array
+2.ConstructDataset.m: construct dataset (training set and test set) using raw data
+    dependencies:
+    formatData.m: generate input factors (historical metoerological data, historical power output) and output variables (power output to be predicted) based on raw data

@@ -1,0 +1,5 @@
+1.PointForecast.m：carry out point forecasting using BLS
+    dependencies:
+    blsSparse.m: sparse autoencoder used for feature extraction
+    blsTrain.m: train the BLS using the given dataset
+    getRMSE.m: calculate the RMSE between two arrays

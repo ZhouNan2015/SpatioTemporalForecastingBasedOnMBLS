@@ -1,0 +1,4 @@
+1.Clustering.m: clustering the data of multiple PVs using SOM
+2.CalculatingU.m: calculating the marginal distributions (i.e., probability integral transform U)
+3.FittingCopulaSOM.m/FittingCopulaSingle.m: estimating the parameters of SOM-Copula and single-Copula methods
+4.GenerateScenarios.m: sample from predicted joint probability distribution to obtain scenarios of PV power outputs
